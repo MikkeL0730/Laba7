@@ -22,5 +22,6 @@ class NumberChecker:
                 print(num)
 
 
-n = int(input("Введите число n: "))
+n = int(input("Введите число n (> 10): "))
+print("Числа, которые являются палиндромом и в которых одна нечетная цифра на четной позиции:")
 NumberChecker.print_numbers_with_one_odd_digit_and_palindrome(n)
